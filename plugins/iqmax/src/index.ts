@@ -31,7 +31,7 @@ const settings = (): Required<SettingsStore> => {
 };
 
 function endpointFromBaseUrl(baseUrl: string): string {
-    const base = baseUrl.trim().replace(/\\/+$/, "");
+    const base = baseUrl.trim().replace(/\/+$/, "");
     if (!/^https?:\\/\\//i.test(base)) {
         throw new Error("Base URL должен начинаться с https:// (или http:// для локального сервера).");
     }
