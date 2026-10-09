@@ -1,0 +1,14 @@
+{
+  "name": "IQMax",
+  "description": "Переписывает текст в псевдоинтеллектуальном стиле через OpenAI-compatible API.",
+  "authors": [
+    {
+      "name": "muwrec"
+    }
+  ],
+  "main": "src/index.ts",
+  "vendetta": {
+    "icon": "ic_message_edit"
+  },
+  "version": "1.0.0"
+}
